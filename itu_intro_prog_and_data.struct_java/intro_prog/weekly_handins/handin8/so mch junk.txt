@@ -1,0 +1,161 @@
+ public void printPrioritized() {
+        System.out.println("Prioritized todo:");
+        System.out.println("-----------------");
+        ArrayList<Task> prioriList = new ArrayList<>();
+        ArrayList<Task> timeList = new ArrayList<>();
+        ArrayList<Task> finalList = new ArrayList<>();
+
+        for (Task e : todoList) {
+            if (todoList.indexOf(e).getPriority() == todoList.indexOf(e.next()).getPriority()) {
+                if (e.getTime() = e.getTime()) {
+
+                    while (e.getPriority() == 1) {
+                        prioriList.add(e);
+                        break;
+                    }
+                    while (e.getPriority() == 2) {
+                        prioriList.add(e);
+                        break;
+                    }
+                    while (e.getPriority() == 3) {
+                        prioriList.add(e);
+                        break;
+                    }
+                    while (e.getPriority() == 4) {
+                        prioriList.add(e);
+                        break;
+                    }
+
+                }
+                // for (Task e : prioriList) {
+                // if (e.getPriority() == e.getPriority()) {
+                // if (e.getTime() < e.getTime()) {
+                // timeList.add(e);
+                // }
+                // }
+
+                for (Task g : prioriList) {
+                    System.out.println(g.toString());
+                }
+            }
+        }
+    }
+
+    // for (Task e : todoList) {
+    // for (Task f : todoList)
+    // if (e.getPriority() == f.getPriority()) {
+    // if (e.getTime() < f.getTime()) {
+    // while (e.getPriority() == 1) {
+    // prioriList.add(e);
+    // break;
+    // }
+    // while (e.getPriority() == 2) {
+    // prioriList.add(e);
+    // break;
+    // }
+    // while (e.getPriority() == 3) {
+    // prioriList.add(e);
+    // break;
+    // }
+    // while (e.getPriority() == 4) {
+    // prioriList.add(e);
+    // break;
+    // }
+    // }
+    // while (f.getPriority() == 1) {
+    // prioriList.add(f);
+    // break;
+    // }
+    // while (f.getPriority() == 2) {
+    // prioriList.add(f);
+    // break;
+    // }
+    // while (f.getPriority() == 3) {
+    // prioriList.add(f);
+    // break;
+    // }
+    // while (f.getPriority() == 4) {
+    // prioriList.add(f);
+    // break;
+    // }
+
+    // }
+    // }
+
+    // for (Task g : prioriList) {
+    // System.out.println(g.toString());
+    // }
+    // }
+}
+
+
+get some more juuunk:
+
+
+ ArrayList<Task> timeList = new ArrayList<>();
+        ArrayList<Task> finalList = new ArrayList<>();
+        for (Task e : todoList) {
+            for (Task f : todoList)
+                if (e.getPriority() == f.getPriority())
+                    if (e.getTime() < f.getTime()) {
+                        prioriList.add(e);
+                    } else {
+                        while (e.getPriority() == 1) {
+                            timeList.add(e);
+                            break;
+                        }
+                        while (e.getPriority() == 2) {
+                            timeList.add(e);
+                            break;
+                        }
+                        while (e.getPriority() == 3) {
+                            timeList.add(e);
+                            break;
+                        }
+                        while (e.getPriority() == 4) {
+                            timeList.add(e);
+                            break;
+                        }
+                    }
+
+            System.out.println(timeList.toString());
+        }
+    }
+
+    for you my friend....extra juuunk
+
+       ArrayList<Task> prioriList = new ArrayList<>();
+        for (Task e : todoList) {
+            if (e.getPriority() == 1) {
+                prioriList.add(e);
+                // break;
+            } else if (e.getPriority() == 2) {
+                prioriList.add(e);
+                // break;
+            } else if (e.getPriority() == 3) {
+                prioriList.add(e);
+                // break;
+            } else if (e.getPriority() == 4) {
+                prioriList.add(e);
+                // break;
+            }
+        }
+
+        for (Task g : prioriList) {
+            System.out.println(g.toString());
+        }
+
+
+
+
+        junk is my life: 
+
+
+             // for (Task g : pList1) {
+        // for (Task f : pList1) {
+        // if (g.getPriority() == f.getPriority() && g.getTime() < f.getTime()) {
+        // pList1.set(0, g);
+        // }
+        // }
+        // System.out.println(g.toString());
+        

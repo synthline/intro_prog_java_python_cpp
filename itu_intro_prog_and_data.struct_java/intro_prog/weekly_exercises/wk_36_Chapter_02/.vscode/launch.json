@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Main",
+            "request": "launch",
+            "mainClass": "naive_ticket_machine.Main",
+            "projectName": "chapter02"
+        }
+    ]
+}
